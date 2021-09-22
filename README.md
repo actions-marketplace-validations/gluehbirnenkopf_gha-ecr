@@ -7,7 +7,7 @@ Scan an image uploaded to ECR and fail if vulnerabilities are found.
 ```yaml
       - name: Scan Docker image
         id: docker-scan
-        uses: alexjurkiewicz/ecr-scan-image@v1.5.0
+        uses: gluehbirnenkopf/ecr-scan-image@v1.5.0
         with:
           repository: myorg/myimage
           tag: v1.2.3
